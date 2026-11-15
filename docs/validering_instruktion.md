@@ -5,13 +5,13 @@
 ## Sådan gør du
 1. Åbn linket i kolonnen `url`. Det viser repoet ved præcis den commit, koden analyserede.
 2. Besvar de tre spørgsmål med `ja`, `nej` eller `uklar`. Vurdér selv ud fra repoet, og gæt ikke på, hvad koden har sagt.
-3. Skriv en kort begrundelse i `note`, især ved `nej` og `uklar`. Ved `backend_ok = ja` skriver du stien til mappen eller filen med server-koden. Skriv ingen kodeuddrag.
+3. Skriv en kort begrundelse i `note`, især ved `nej` og `uklar`. Ved `backend_ok = ja` skriver stien til mappen eller filen med server-koden. Skriv ingen kodeuddrag.
 
 | Kolonne | Spørgsmål | Hvad du kigger efter |
 |---|---|---|
 | `platform_ok` | Er repoet lavet med den platform, der står i `platform`? | Lovable: commits fra Lovables bot (`gpt-engineer-app[bot]` / `lovable-dev[bot]`). Replit: commits fra Replit Agent. Bolt.new: en `.bolt/`-mappe i roden. |
 | `web_not_mobile` | Er det en webapp og ikke en mobilapp? | `nej`, hvis der findes en `app.json` med `"expo"` eller en `eas.json` (Expo-mobilapp). |
-| `backend_ok` | Har repoet **server-side-kode** på mindst ca. 50 linjer, uanset hvor den ligger? | Se definitionen herunder. Kan du ikke afgøre det inden for ca. 5 minutter, svarer du `uklar`. |
+| `backend_ok` | Har repoet **server-side-kode** på mindst ca. 50 linjer, uanset hvor den ligger? | Se definitionen herunder. Afgøre det inden for ca. 5 minutter, eller svar `uklar`. |
 
 ## Hvad er server-side-kode?
 Det er kode, der kører på en server eller i en cloud-funktion og aldrig sendes til brugerens browser.
