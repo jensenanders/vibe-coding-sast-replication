@@ -1,0 +1,4 @@
+# Exact versions (resolved 2026-11-01 in the pinned base image)
+lizard==1.24.3
+pathspec==1.1.1
+Pygments==2.21.0

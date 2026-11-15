@@ -1,0 +1,10 @@
+platform,rule,main,codeql,gitlab,matched,union,jaccard_pooled,repos,jaccard_median,q1,q3,repos_jaccard_zero
+lovable,A,False,236,627,4,859,0.0047,50,0.0,0.0,0.0,47
+lovable,C,True,236,627,7,856,0.0082,50,0.0,0.0,0.0,45
+lovable,E,False,236,627,18,845,0.0213,50,0.0,0.0,0.0,43
+replit,A,False,1590,2307,30,3867,0.0078,50,0.0,0.0,0.0,42
+replit,C,True,1590,2307,41,3856,0.0106,50,0.0,0.0,0.0,38
+replit,E,False,1590,2307,106,3791,0.028,50,0.0,0.0,0.026,29
+boltnew,A,False,692,1008,12,1688,0.0071,47,0.0,0.0,0.0,41
+boltnew,C,True,692,1008,17,1683,0.0101,47,0.0,0.0,0.0,39
+boltnew,E,False,692,1008,39,1661,0.0235,47,0.0,0.0,0.0088,34

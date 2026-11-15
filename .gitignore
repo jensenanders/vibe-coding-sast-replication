@@ -1,0 +1,16 @@
+# OS
+.DS_Store
+
+# Data and raw tool output contain repository names -- never commit
+data
+data/
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets
+.env
+.env.*

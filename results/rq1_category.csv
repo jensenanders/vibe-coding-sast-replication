@@ -1,0 +1,133 @@
+platform,tool,category,findings,share_of_findings,repos,share_of_repos
+lovable,combined,A01:2025,198,0.2313,32,0.64
+lovable,combined,A02:2025,8,0.0093,3,0.06
+lovable,combined,A03:2025,0,0.0,0,0.0
+lovable,combined,A04:2025,317,0.3703,50,1.0
+lovable,combined,A05:2025,177,0.2068,50,1.0
+lovable,combined,A06:2025,41,0.0479,11,0.22
+lovable,combined,A07:2025,19,0.0222,5,0.1
+lovable,combined,A08:2025,0,0.0,0,0.0
+lovable,combined,A09:2025,24,0.028,5,0.1
+lovable,combined,A10:2025,57,0.0666,12,0.24
+lovable,combined,Not in OWASP Top 10:2025,144,0.1682,27,0.54
+lovable,codeql,A01:2025,94,0.3983,16,0.32
+lovable,codeql,A02:2025,7,0.0297,3,0.06
+lovable,codeql,A03:2025,0,0.0,0,0.0
+lovable,codeql,A04:2025,9,0.0381,5,0.1
+lovable,codeql,A05:2025,113,0.4788,23,0.46
+lovable,codeql,A06:2025,41,0.1737,11,0.22
+lovable,codeql,A07:2025,19,0.0805,5,0.1
+lovable,codeql,A08:2025,0,0.0,0,0.0
+lovable,codeql,A09:2025,24,0.1017,5,0.1
+lovable,codeql,A10:2025,56,0.2373,12,0.24
+lovable,codeql,Not in OWASP Top 10:2025,2,0.0085,2,0.04
+lovable,codeql_default,A01:2025,90,0.4663,16,0.32
+lovable,codeql_default,A02:2025,7,0.0363,3,0.06
+lovable,codeql_default,A03:2025,0,0.0,0,0.0
+lovable,codeql_default,A04:2025,9,0.0466,5,0.1
+lovable,codeql_default,A05:2025,87,0.4508,23,0.46
+lovable,codeql_default,A06:2025,30,0.1554,7,0.14
+lovable,codeql_default,A07:2025,10,0.0518,1,0.02
+lovable,codeql_default,A08:2025,0,0.0,0,0.0
+lovable,codeql_default,A09:2025,23,0.1192,4,0.08
+lovable,codeql_default,A10:2025,56,0.2902,12,0.24
+lovable,codeql_default,Not in OWASP Top 10:2025,1,0.0052,1,0.02
+lovable,gitlab,A01:2025,106,0.1691,25,0.5
+lovable,gitlab,A02:2025,1,0.0016,1,0.02
+lovable,gitlab,A03:2025,0,0.0,0,0.0
+lovable,gitlab,A04:2025,312,0.4976,50,1.0
+lovable,gitlab,A05:2025,65,0.1037,49,0.98
+lovable,gitlab,A06:2025,0,0.0,0,0.0
+lovable,gitlab,A07:2025,0,0.0,0,0.0
+lovable,gitlab,A08:2025,0,0.0,0,0.0
+lovable,gitlab,A09:2025,0,0.0,0,0.0
+lovable,gitlab,A10:2025,1,0.0016,1,0.02
+lovable,gitlab,Not in OWASP Top 10:2025,142,0.2265,27,0.54
+replit,combined,A01:2025,1065,0.2762,50,1.0
+replit,combined,A02:2025,46,0.0119,17,0.34
+replit,combined,A03:2025,0,0.0,0,0.0
+replit,combined,A04:2025,405,0.105,50,1.0
+replit,combined,A05:2025,724,0.1878,49,0.98
+replit,combined,A06:2025,131,0.034,26,0.52
+replit,combined,A07:2025,423,0.1097,31,0.62
+replit,combined,A08:2025,4,0.001,3,0.06
+replit,combined,A09:2025,297,0.077,12,0.24
+replit,combined,A10:2025,52,0.0135,4,0.08
+replit,combined,Not in OWASP Top 10:2025,922,0.2391,50,1.0
+replit,codeql,A01:2025,227,0.1428,27,0.54
+replit,codeql,A02:2025,46,0.0289,17,0.34
+replit,codeql,A03:2025,0,0.0,0,0.0
+replit,codeql,A04:2025,38,0.0239,16,0.32
+replit,codeql,A05:2025,458,0.2881,46,0.92
+replit,codeql,A06:2025,131,0.0824,26,0.52
+replit,codeql,A07:2025,423,0.266,31,0.62
+replit,codeql,A08:2025,4,0.0025,3,0.06
+replit,codeql,A09:2025,297,0.1868,12,0.24
+replit,codeql,A10:2025,43,0.027,4,0.08
+replit,codeql,Not in OWASP Top 10:2025,136,0.0855,50,1.0
+replit,codeql_default,A01:2025,148,0.1341,24,0.48
+replit,codeql_default,A02:2025,46,0.0417,17,0.34
+replit,codeql_default,A03:2025,0,0.0,0,0.0
+replit,codeql_default,A04:2025,38,0.0344,16,0.32
+replit,codeql_default,A05:2025,443,0.4013,46,0.92
+replit,codeql_default,A06:2025,70,0.0634,16,0.32
+replit,codeql_default,A07:2025,377,0.3415,28,0.56
+replit,codeql_default,A08:2025,4,0.0036,3,0.06
+replit,codeql_default,A09:2025,2,0.0018,2,0.04
+replit,codeql_default,A10:2025,43,0.0389,4,0.08
+replit,codeql_default,Not in OWASP Top 10:2025,105,0.0951,45,0.9
+replit,gitlab,A01:2025,869,0.3767,49,0.98
+replit,gitlab,A02:2025,0,0.0,0,0.0
+replit,gitlab,A03:2025,0,0.0,0,0.0
+replit,gitlab,A04:2025,372,0.1612,50,1.0
+replit,gitlab,A05:2025,271,0.1175,48,0.96
+replit,gitlab,A06:2025,0,0.0,0,0.0
+replit,gitlab,A07:2025,0,0.0,0,0.0
+replit,gitlab,A08:2025,0,0.0,0,0.0
+replit,gitlab,A09:2025,0,0.0,0,0.0
+replit,gitlab,A10:2025,9,0.0039,2,0.04
+replit,gitlab,Not in OWASP Top 10:2025,786,0.3407,38,0.76
+boltnew,combined,A01:2025,437,0.2597,29,0.58
+boltnew,combined,A02:2025,35,0.0208,9,0.18
+boltnew,combined,A03:2025,0,0.0,0,0.0
+boltnew,combined,A04:2025,413,0.2454,37,0.74
+boltnew,combined,A05:2025,332,0.1973,28,0.56
+boltnew,combined,A06:2025,65,0.0386,13,0.26
+boltnew,combined,A07:2025,210,0.1248,14,0.28
+boltnew,combined,A08:2025,0,0.0,0,0.0
+boltnew,combined,A09:2025,85,0.0505,12,0.24
+boltnew,combined,A10:2025,32,0.019,9,0.18
+boltnew,combined,Not in OWASP Top 10:2025,218,0.1295,29,0.58
+boltnew,codeql,A01:2025,103,0.1488,17,0.34
+boltnew,codeql,A02:2025,35,0.0506,9,0.18
+boltnew,codeql,A03:2025,0,0.0,0,0.0
+boltnew,codeql,A04:2025,26,0.0376,12,0.24
+boltnew,codeql,A05:2025,260,0.3757,23,0.46
+boltnew,codeql,A06:2025,64,0.0925,12,0.24
+boltnew,codeql,A07:2025,210,0.3035,14,0.28
+boltnew,codeql,A08:2025,0,0.0,0,0.0
+boltnew,codeql,A09:2025,85,0.1228,12,0.24
+boltnew,codeql,A10:2025,31,0.0448,8,0.16
+boltnew,codeql,Not in OWASP Top 10:2025,22,0.0318,7,0.14
+boltnew,codeql_default,A01:2025,83,0.1477,16,0.32
+boltnew,codeql_default,A02:2025,35,0.0623,9,0.18
+boltnew,codeql_default,A03:2025,0,0.0,0,0.0
+boltnew,codeql_default,A04:2025,26,0.0463,12,0.24
+boltnew,codeql_default,A05:2025,246,0.4377,18,0.36
+boltnew,codeql_default,A06:2025,47,0.0836,9,0.18
+boltnew,codeql_default,A07:2025,192,0.3416,8,0.16
+boltnew,codeql_default,A08:2025,0,0.0,0,0.0
+boltnew,codeql_default,A09:2025,14,0.0249,5,0.1
+boltnew,codeql_default,A10:2025,31,0.0552,8,0.16
+boltnew,codeql_default,Not in OWASP Top 10:2025,14,0.0249,4,0.08
+boltnew,gitlab,A01:2025,339,0.3363,28,0.56
+boltnew,gitlab,A02:2025,0,0.0,0,0.0
+boltnew,gitlab,A03:2025,0,0.0,0,0.0
+boltnew,gitlab,A04:2025,394,0.3909,37,0.74
+boltnew,gitlab,A05:2025,73,0.0724,15,0.3
+boltnew,gitlab,A06:2025,1,0.001,1,0.02
+boltnew,gitlab,A07:2025,0,0.0,0,0.0
+boltnew,gitlab,A08:2025,0,0.0,0,0.0
+boltnew,gitlab,A09:2025,0,0.0,0,0.0
+boltnew,gitlab,A10:2025,1,0.001,1,0.02
+boltnew,gitlab,Not in OWASP Top 10:2025,200,0.1984,28,0.56

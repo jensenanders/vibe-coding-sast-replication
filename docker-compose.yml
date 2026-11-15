@@ -1,0 +1,17 @@
+services:
+  pipeline:
+    build: ./pipeline
+    image: msr-pipeline:dev
+    environment:
+      - GITHUB_TOKEN          # taken from the host shell, never written to disk
+    volumes:
+      - ./data:/data          # small outputs: frozen frames, logs (git-ignored, contain repository names)
+      - msrwork:/work         # heavy outputs: raw API responses, clones
+      - ./docs:/docs:ro       # protocol file, hashed into the manifest
+      - ./output/tables:/tables    # `tables` writes LaTeX tables (aggregates only)
+      - ./output/figures:/figures  # `tables` writes pgfplots figures (values only, no repo ids)
+      - /var/run/docker.sock:/var/run/docker.sock   # `scan` starts the pinned tool images
+
+volumes:
+  msrwork:
+    name: msr-paper_msrwork   # explicit: `scan` mounts it by name into the tool containers
